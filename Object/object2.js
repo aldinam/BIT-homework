@@ -7,6 +7,7 @@
 //   "price": 1.50
 // }
 function totalPrice(groceries) {
+    //KOMENTAR: Zbog cega imas ovde objekte milk, eggs i bread? :) 
     var milk ={
     product: "Milk",
     quantity: 1, 
@@ -72,6 +73,8 @@ function mostExpensive(jewelry){
 
     printMostExpensive: function () {
 
+        
+       // KOMENTAR: Ovo nije dobra praksa. Sta da imamo 150 vrednosti za poredjenje?  
     var max= Math.max(jewelry.diamondEarings.price,jewelry.goldenWatch.price,jewelry.diamondRing.price)
 
     if (max==980){
